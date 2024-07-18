@@ -2,7 +2,7 @@
 
 from typing import Final
 
-DOMAIN = "swiss_public_transport"
+DOMAIN = "ndsign_sbb"
 
 CONF_DESTINATION: Final = "to"
 CONF_START: Final = "from"
@@ -11,7 +11,7 @@ CONF_VIA: Final = "via"
 DEFAULT_NAME = "Next Destination"
 
 MAX_VIA = 5
-SENSOR_CONNECTIONS_COUNT = 3
+SENSOR_CONNECTIONS_COUNT = 5
 
 
 PLACEHOLDERS = {
