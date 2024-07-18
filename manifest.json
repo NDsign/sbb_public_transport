@@ -1,0 +1,10 @@
+{
+  "domain": "ndsign_sbb",
+  "name": "NDsign SBB",
+  "codeowners": ["@NDsign"],
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/swiss_public_transport",
+  "iot_class": "cloud_polling",
+  "loggers": ["opendata_transport"],
+  "requirements": ["python-opendata-transport==0.4.0"]
+}
